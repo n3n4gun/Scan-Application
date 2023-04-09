@@ -1,0 +1,27 @@
+{
+    "20" : "FTP", 
+    "21" : "FTP", 
+    "22" : "SSH", 
+    "23" : "Telnet",
+    "25" : "SMTP", 
+    "53" : "DNS", 
+    "69" : "TFTP", 
+    "80" : "HTTP",
+    "81" : "HTTP", 
+    "110" : "POP3", 
+    "135" : "msrpc", 
+    "139": "netbios-ssn", 
+    "145" : "IMAP", 
+    "161" : "SNMP", 
+    "443" : "HTTPS",
+    "445" : "microsoft-ds", 
+    "587" : "SMTP", 
+    "993" : "IMAP", 
+    "995" : "POP3", 
+    "1500" : "ISPManager",
+    "2083" : "cPanel", 
+    "3306" : "MySQL", 
+    "4445": "upnotifyp",
+    "8083" : "Vesta"
+}
+
