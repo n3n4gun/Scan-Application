@@ -315,6 +315,7 @@ class scanner_application(object):
                     for port_id in ports_json:
                         scan_thread = threading.Thread(target = surface_port_scan, args = (ip_V4, int(port_id), ))
                         scan_thread.start()
+                        scan_thread.join()
 
             else:
                 QMessageBox.warning(MainWindow, 'Предупреждение', 'Проверьте корректность указанного IP-адреса!', QMessageBox.StandardButton.Ok)
