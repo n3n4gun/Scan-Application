@@ -11,7 +11,7 @@ Using library:
   - threading
   - PyQt5 (PySide6)
   
-The main libraries which using in this application, which perform the main functional are:
+The main libraries which using in this application, which perform the main functional of application are:
   - nmap3
   - networkscan
   - pythonping
