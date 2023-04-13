@@ -30,6 +30,6 @@ Nmap3
 Networkscan
   This library is destin for getting working ip addresses in the local network.
   
-    networkscan.Networkscan('ip-address/mask')
-    networkscan.run()
+    self.NetworkFormat = '{}/{}'.format(self.IpAddr, self.NetMask)
+    self.NetScan = networkscan.Networkscan(self.NetworkFormat)
 ...
